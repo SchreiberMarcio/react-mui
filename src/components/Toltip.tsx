@@ -1,7 +1,7 @@
 import { Button, Grid2 } from "@mui/material";
 import Tooltip from "@mui/material/Tooltip";
 
-export default function BasicTooltip() {
+export  function BasicTooltip() {
   return (
     <>
       <Grid2>

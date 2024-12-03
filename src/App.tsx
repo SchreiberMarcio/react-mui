@@ -1,17 +1,18 @@
 import { CssBaseline } from "@mui/material";
 import { AppRoutes } from "./config/routes/AppRoutes";
-import { GlobalStyle } from './config/global/GlobalStyles';
-import BasicTooltip from "./components/Toltip";
-import BasicTable from "./components/Table";
-
+import { GlobalStyle } from "./config/global/GlobalStyles";
+import {BasicTable} from "./components/Table";
+import { BasicTooltip } from "./components/Toltip";
+import { PrimarySearchAppBar } from "./components/NavBar";
 
 function App() {
   return (
     <>
       <CssBaseline />
       <GlobalStyle />
-      <BasicTable/>
-      <BasicTooltip/>
+      <PrimarySearchAppBar/>
+      <BasicTable />
+      <BasicTooltip />
       <AppRoutes />
     </>
   );
